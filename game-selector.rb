@@ -6,7 +6,7 @@ def arraycreate(filename)
 	selector(array, filename)
 end
 
-# select the tsumtsum using sample method
+# select the game using sample method
 def selector(array, filename)
 	selected = array.sample
 	modifyfile(selected, filename)
